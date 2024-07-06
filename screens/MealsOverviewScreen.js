@@ -4,6 +4,7 @@ import { useLayoutEffect } from "react";
 
 import { MEALS, CATEGORIES } from "../data/dummy-data";
 import MealItem from "../components/MealItem";
+
 function MealsOverviewScreen({ route, navigation }) {
 
     const catId = route.params.categoryId;
